@@ -1,0 +1,48 @@
+# Private rule repositories and local security research material
+/no-public/
+
+# Rust/Cargo build artifacts
+/target/
+**/*.rs.bk
+
+# Generated binaries and native build output
+*.rlib
+*.rmeta
+*.dSYM/
+*.pdb
+
+# Coverage, profiling and benchmark output
+/coverage/
+/profraw/
+/criterion/
+*.profraw
+*.profdata
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.temp
+/tmp/
+
