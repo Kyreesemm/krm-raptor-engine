@@ -107,6 +107,7 @@ dependencies = [
  "anyhow",
  "blake3",
  "hex",
+ "object 0.36.7",
  "serde",
  "sha2",
  "thiserror 2.0.20",
